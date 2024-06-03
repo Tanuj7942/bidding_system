@@ -13,20 +13,22 @@ Follow these simple instructions to set up the project on your local development
 - Clone the repository and install dependencies:
 
   ```
-  git clone git@github.com:exsquared/express-typescript-boilerplate.git
-  cd express-typescript-boilerplate
-  npm install
+  git clone https://github.com/Tanuj7942/bidding_system.git
+  cd Bidding-System
+  npm i
   ```
 
-- Run the `start` script, which building packages and runs the application in the development mode, ensuring your workspace is dev-ready.
+- Run the `database_queries.sql` in postgres SQL to setup the database.
+- Run the `build` script, which building packages and dist folder.
+
+  ```
+  npm run build
+  ```
+
+- Run the `start` script, which runs the application in the development mode, ensuring your workspace is dev-ready.
 
   ```
   npm run start
   ```
 
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-- **(For Deployments Only)** Run the `build` script, which builds the app for production to the `build` folder. The build is minified and the filenames include the hashes. App is ready to be deployed!
-
-  ```
-  npm run build
-  ```

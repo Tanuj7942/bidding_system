@@ -3,3 +3,5 @@
 Dockerfile
 /dist
 package-lock.json
+/log
+/media
