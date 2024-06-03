@@ -1,0 +1,900 @@
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'b20ecaeb-9d90-4310-9b6f-b5300414ed65',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items/getList',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:02:14.517Z'
+}
+{
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '6c017032-6b80-41b7-91d5-c2fe5319656e',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '25',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: { name: 'Watch' },
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:02:47.510Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '1d01831e-b6e0-48ad-906c-9c9c545cb9e6',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items/getList',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:03:47.199Z'
+}
+{
+  message: 'QueryFailedError: invalid input syntax for type bigint: "NaN"\n' +
+    '    at PostgresQueryRunner.query (C:\\Project\\Personal\\express-typescript-boilerplate-main\\node_modules\\typeorm\\driver\\postgres\\PostgresQueryRunner.js:219:19)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async DataSource.query (C:\\Project\\Personal\\express-typescript-boilerplate-main\\node_modules\\typeorm\\data-source\\DataSource.js:350:20)',
+  level: 'error',
+  timestamp: '2024-06-02T19:03:47.283Z'
+}
+{
+  query: 'SELECT id, name, description, starting_price, current_price, image_url, end_time, created_at FROM items LIMIT $1 OFFSET $2;',
+  parameters: [ NaN, NaN ],
+  driverError: error: invalid input syntax for type bigint: "NaN"
+      at C:\Project\Personal\express-typescript-boilerplate-main\node_modules\pg\lib\client.js:526:17
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async PostgresQueryRunner.query (C:\Project\Personal\express-typescript-boilerplate-main\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:184:25)
+      at async DataSource.query (C:\Project\Personal\express-typescript-boilerplate-main\node_modules\typeorm\data-source\DataSource.js:350:20) {
+    length: 145,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $1 = '...'",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '882',
+    routine: 'pg_strtoint64_safe'
+  },
+  length: 145,
+  severity: 'ERROR',
+  code: '22P02',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: "unnamed portal parameter $1 = '...'",
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'numutils.c',
+  line: '882',
+  routine: 'pg_strtoint64_safe',
+  level: 'error',
+  message: 'invalid input syntax for type bigint: "NaN"',
+  stack: 'QueryFailedError: invalid input syntax for type bigint: "NaN"\n' +
+    '    at PostgresQueryRunner.query (C:\\Project\\Personal\\express-typescript-boilerplate-main\\node_modules\\typeorm\\driver\\postgres\\PostgresQueryRunner.js:219:19)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async DataSource.query (C:\\Project\\Personal\\express-typescript-boilerplate-main\\node_modules\\typeorm\\data-source\\DataSource.js:350:20)',
+  timestamp: '2024-06-02T19:03:47.285Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'dd714c4d-b5ef-4a76-92f5-ebc081bfdbcf',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items/getList',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:04:51.542Z'
+}
+{
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'bdc67805-48f0-4764-bc28-a80d2db93cff',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '150',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {
+    id: 'IT1717354009779',
+    name: 'Watch Hello',
+    description: 'desc',
+    startingPrice: '42.00',
+    endTime: '05/15/2019'
+  },
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:05:38.564Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'c8a754b7-732c-417c-ae89-b3301359adb8',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items/getList',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:05:47.419Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '7310d950-1df9-437e-9947-7b62ad7a557b',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items/getList',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:05:50.233Z'
+}
+{
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'd936b687-353c-4cd3-a19d-34642a3ffcf4',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '150',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {
+    id: 'IT1717354009779',
+    name: 'Watch Hello',
+    description: 'desc',
+    startingPrice: '42.00',
+    endTime: '05/15/2019'
+  },
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:06:26.869Z'
+}
+{
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '55849702-c555-4a06-af6d-f21c082f0401',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '150',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {
+    id: 'IT1717354009779',
+    name: 'Watch Hello',
+    description: 'desc',
+    startingPrice: '42.00',
+    endTime: '05/15/2019'
+  },
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:07:19.276Z'
+}
+{
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '405f8984-c6ea-4cd1-b50d-8e3a212ced0f',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '150',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {
+    id: 'IT1717354009779',
+    name: 'Watch Hello',
+    description: 'desc',
+    startingPrice: '42.00',
+    endTime: '05/15/2019'
+  },
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:08:01.917Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '29f3d9dd-1e53-45d1-8036-1a65ccb9bf2a',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items/getList',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:08:08.391Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '1e5071b4-e834-4e8c-9402-b8de94ee644e',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items?itemId',
+  query: { itemId: '' },
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:08:20.229Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'cb272ecc-c5e1-4585-9598-e5f7bfe84d10',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items?itemId=IT1717354009779',
+  query: { itemId: 'IT1717354009779' },
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:08:25.447Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '7bde3bf9-57a4-4f9f-a8e6-d4c99f090656',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items?itemId',
+  query: { itemId: '' },
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:09:18.854Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '67c12212-87fb-4cc4-aaf0-d9c9ca72bcf4',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items?itemId=IT1717354009779',
+  query: { itemId: 'IT1717354009779' },
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:09:22.905Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '35b463fc-27b5-43db-ada8-d60ef4ae96c9',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------095322826926481082469467',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '221828'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:18:11.024Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '2eabf188-e587-46f4-a3a2-ec612a91fb1b',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------922823636795286869024815',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '221828'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:20:34.091Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '27172d51-4ba1-4512-a84c-5f691c950258',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------787834431707078713240154',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '221828'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:22:02.620Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '8bde4316-3194-4667-99ec-c5510a99ec52',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------427459129551763055563975',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '221828'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:22:33.863Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '50fc5144-416a-4c86-a36a-813a4bb57526',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------726975702092949259643252',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '221935'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:22:50.170Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '45369118-dfa4-4593-b1f3-496a05d59b11',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------760750514418805195162290',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '222051'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:23:13.701Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '4bbd8867-a718-4e7c-a3be-cf29dc108ec3',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------203027995462829962890271',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '222051'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-02T19:23:35.360Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'e71301e6-56fd-41c8-86d1-7511d50999b9',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------225194244540251875277461',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '222283'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T04:17:01.726Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'c200e561-9bf9-44ab-90d7-5900ba149ea6',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------468662800091671039202703',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '222283'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T04:17:40.448Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '27907a1d-0bc1-4039-b6c1-ce59b906bee8',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------059087076181389546864183',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '222283'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T04:20:02.496Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '99d18fc4-3019-4566-ab76-f872acef7cb4',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------082282295709373985572627',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '511'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T04:21:02.665Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'a5c84731-21ec-4c09-a6e2-6497c8acc8ad',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------357533623328864993707166',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '511'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T04:27:31.269Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '9297e3af-a002-4f0a-92cd-2917d5e7580d',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------437449362383834219860223',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '222167'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T04:27:42.331Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '2d6898af-a3fd-49f1-90e8-cc896f2018f1',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------850598752718661939255302',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '222283'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T04:27:48.983Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '0dff5aa2-0858-4ecd-94f7-6898f97d95b7',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------079316483869097376524973',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '222283'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T04:28:13.519Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '47e2c46e-3e73-428b-9ce2-7fd6733aad40',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------029535638338926868746686',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '222283'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T04:30:23.293Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'b6fb54ea-3f67-4620-911f-502bbe4226cd',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items/getList',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T04:30:34.819Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'f80c9cf6-ae03-4939-9a57-f7f0b0983b0d',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------984120999459725573175287',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215',
+    'content-length': '222283'
+  },
+  url: '/api/items',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T04:30:55.399Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'd0f1825b-1100-4349-8fae-d2277f57f0b0',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/items/getList',
+  query: {},
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T04:30:58.803Z'
+}
+{
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'f9724a0b-bcfe-4a1d-b50e-764a971895cd',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '93',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/users/login?userId=UID1717322327530',
+  query: { userId: 'UID1717322327530' },
+  params: {},
+  body: {
+    username: 'rossosan_',
+    password: 'password',
+    email: 'abc@gmail.com'
+  },
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T05:06:29.834Z'
+}
+{
+  headers: {
+    'content-type': 'application/json',
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '9bc3fa1e-1560-44fb-a95d-ec0b0a2ac91b',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-length': '93',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/users/login?userId=UID1717322327530',
+  query: { userId: 'UID1717322327530' },
+  params: {},
+  body: {
+    username: 'rossosan_',
+    password: 'password',
+    email: 'abc@gmail.com'
+  },
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T05:07:08.123Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '110348fe-d1ca-45e0-b5a2-e07850aec2bb',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/users?userId=UID1717322327530',
+  query: { userId: 'UID1717322327530' },
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T08:21:51.224Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'a29ebd18-018d-445a-98d2-a91a9427a510',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/users?userId=UID1717322327530',
+  query: { userId: 'UID1717322327530' },
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T08:42:36.298Z'
+}
+{
+  headers: {
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '9583ce32-d3cd-4e72-8c5e-812fbf9a446b',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/users?userId=UID1717322327530',
+  query: { userId: 'UID1717322327530' },
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T08:43:42.089Z'
+}
+{
+  headers: {
+    authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvc3Nvc2FuXyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzE3MzkxMjI4fQ.RosEeYYwmzQv0xqoJO5HnhOfFNxYNwR4ZrdOkP-bt-E',
+    'user-agent': 'PostmanRuntime/7.39.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'ac69d033-b4fe-4391-bbd4-566f257ce7d8',
+    host: 'localhost:3000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    cookie: 'JSESSIONID=BBEAB9EA373A9DB756E11C3B575C2215'
+  },
+  url: '/api/users?userId=UID1717322327530',
+  query: { userId: 'UID1717322327530' },
+  params: {},
+  body: {},
+  message: 'Incoming Request',
+  level: 'info',
+  timestamp: '2024-06-03T08:45:28.312Z'
+}
